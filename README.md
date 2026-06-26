@@ -24,6 +24,15 @@
 3. 启动游戏即可生效
 
 ## 编译方法
+
+   - GitHub Actions
+      1. Fork这个项目
+      2. 在你fork的项目中选择**Actions**选项卡
+      3. 在左边的侧边栏中，单击**Build**
+      4. 选择**Run workflow**
+      5. 输入游戏包名并点击**Run workflow**
+      6. 等待操作完成并下载
+         
 ```bash
 # 使用 Android Studio 编译
 ./gradlew :module:assembleRelease
